@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "El Messiri", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #101010;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1em;
+  padding-left: 30px;
+}
+.navigation a:hover {
+  color: #f6e611;
+}
+section {
+  padding: 100px 200px;
+}
+.laws-section {
+  background-color: #101010;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.Laws {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 70px;
+  gap: 64px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #6fe56f;
+  font-size: 2.4em;
+  font-weight: 800;
+}
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #101010;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  background-size: cover;
+  text-align: center;
+}
+.main h2 {
+  color: #6fe56f;
+  font-size: 1.4em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.main h2 span {
+  display: inline-block;
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  color: #101010;
+  background-color: #fff71a;
+  text-decoration: none;
+  font-weight: 900;
+  display: inline-block;
+  padding: 1em 2em;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  transition: 0.7s ease;
+  font-size: 1em;
+}
+.main-btn:hover {
+  background-color: #e5de18f0;
+  transform: scale(1.1, 1.1);
+}
+.title-2 {
+  display: flex;
+  justify-content: center;
+  color: #6fe56f;
+  font-size: 2.4em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-1 {
+  background-color: #ffffff;
+  width: 18em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  min-height: 14px;
+  transition: 0.7s ease;
+}
+.card-1:hover {
+  transform: scale(1.1);
+}
+.info {
+  text-align: center;
+  padding: 1em;
+}
+.info a {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+  color: #101010;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: #4699f5;
+}
+.link {
+  margin-top: 30px;
+}
+.teitch-cards-2 {
+  background-color: #101010;
+}
+.title-3 {
+  display: flex;
+  justify-content: center;
+  color: #fff71a;
+  font-size: 2.4em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.title-4 {
+  display: flex;
+  justify-content: center;
+  color: #4699f5;
+  font-size: 2.4em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.info-2 {
+  text-align: center;
+  padding: 1em;
+}
+.info-2 a {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+  color: #101010;
+  text-decoration: none;
+}
+
+.info-2 a:hover {
+  color: #6fe56f;
+}
+
+.info-3 {
+  text-align: center;
+  padding: 1em;
+}
+.info-3 a {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+  color: #101010;
+  text-decoration: none;
+}
+
+.info-3 a:hover {
+  color: #f6e611;
+}
+
+@media (max-width: 1023px) {
+  .header {
+    padding: 12px 10px;
+  }
+  .navigation a {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  section {
+    padding: 80px 20px;
+  }
+  .logo {
+    width: 90px;
+  }
+  .icon {
+    font-size: 1em;
+    padding-right: 10px;
+  }
+  .main h2 span {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  .title-2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .title-3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .title-4 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.menu .icon-9 {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .menu nav a {
+    display: none;
+    text-align: center;
+  }
+  .menu .icon-9 {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .menu .responsive {
+    position: relative;
+  }
+  .menu .responsive .icon-9 {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .menu .responsive a {
+    display: block;
+    text-align: center;
+  }
+}
